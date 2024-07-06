@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    font-family: "Outfit", sans-serif;      
+}
+
+body{
+    background-image: url(../imagenes/patrontile.jpeg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+.divgeneral{
+    width: 1024px;
+    background-image: url(../imagenes/fondo2.jpg);
+    background-size:200px;
+    background-repeat: repeat;
+    background-position: center;
+    color: whitesmoke;
+}
+
+
+
+/*HEADER*/
+
+.encabezado{
+    top: 0;
+    position:sticky;
+    display:  block;
+    background-color: whitesmoke;
+
+    }
+    
+   a h1{
+        background-image:url(../imagenes/Logo.png);
+        background-repeat: no-repeat;
+        width: 318px;
+        height: 32px;
+        text-indent: -1000px;
+        overflow: hidden;
+        display:  block;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    a h1:hover{background-image: url(../imagenes/LogoRojo.png);}
+
+    .buscador{
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .buscador div { display: inline-block;}
+
+    .carrodecompras{ 
+        background-image: url(../imagenes/carrito.png);
+        height: 55px;
+        width: 60px;  
+    }
+
+    .addcart{
+        background-image: url(../imagenes/add.png);
+        height: 30px;
+        width: 30px;
+        padding: 20px;
+        margin: 0 5px;
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        transition:ease-in-out 0.3s;
+    }
+
+    
+    #buscarbarra{
+    padding: 10px;
+    color: whitesmoke;
+    background-color: black;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-content: center;
+    border-radius: 10px;
+    resize: none;
+    width: 315px;
+    height: 40px;
+    color: red;
+    overflow: hidden;
+}
+
+   div #barrabar{
+        padding: 0 0 0 187px;
+    }
+
+  div  #botonesbar{
+        padding:0 10px;
+    }
+
+    .buscarArticulo, .carrodecompras{
+        display: inline-block;
+        border: none;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 5px 0;
+     }
+
+     .buscarArticulo{
+        background-image: url(../imagenes/lupa.png);
+        height: 60px;
+        width: 60px;  
+    }
+
+     .addcart:hover { 
+        background-image: url(../imagenes/addRojo.png);
+        transition:ease-in-out 0.3s;
+        }
+
+     .buscarArticulo:hover { background-image: url(../imagenes/lupaRoja.png);
+        transition:ease-in-out 0.3s;
+        }
+
+     .carrodecompras:hover { background-image: url(../imagenes/carritoRojo.png);
+        transition:ease-in-out 0.3s;
+    }
+     
+.navBar{
+
+    background-color: black;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    padding: 12px 0;
+ }
+
+.navBar li{
+    display: inline;
+}
+
+ .navBar ul li a{
+     padding: 0 35px;
+     font-size: 25px;
+     transition:ease-out 0.3s;
+     color: whitesmoke;
+ }
+
+ 
+ .navBar ul li :hover{
+   color: red;
+}
+
+a{    
+ display: inline-block;
+ font-size: 25px;
+ text-decoration: none;
+ text-align: center;
+ padding: 0 10px;
+}
+
+
+button{cursor: pointer; 
+}
+
+
+
+
+/*INDEX*/
+
+.elBanner{
+
+    background-image:url(../imagenes/85.png);
+    display: block;    
+    width: 1024px;
+    height: 300px;
+}
+
+.elBanner p{
+    color: whitesmoke;
+    text-align: left;
+    padding: 100px 50px 50px 50px;
+
+    font-size: 25px;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+.elBanner p span{
+  display: block;
+  font-family: "Playwrite IT Moderna", cursive;
+}
+
+.catalogoRecomendado{
+    text-align: center;
+}
+
+#shopRecomendado{
+    color: whitesmoke;
+    padding: 40px  0;
+    background-color: rgba(0, 0, 0, 0.590);
+    width: 100%;
+    margin: 0 0 80px 0;
+}
+
+.catalogoRecomendado ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+.catalogoRecomendado img{
+    height: auto;
+    padding: 0px 25px;
+}
+
+
+.catalogoRecomendado p{
+    color: whitesmoke;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;  
+}
+
+article h3{
+    font-weight: 300;
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 30px;
+}
+
+.compra{
+    color: black;
+    background-color: whitesmoke;
+
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+
+    padding: 20px 50px ;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 58px;
+    transition:ease-in-out 0.3s;
+}
+
+.compra:hover{
+    background-color: red;
+    transition:ease-in-out 0.3s;
+}
+    
+
+
+
+/*CONTACTO*/
+
+
+#h2contacto{
+    background-color: rgba(0, 0, 0, 0.590);
+    font-size: 30px;
+    padding: 40px;
+    font-weight:300;
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+#iframeID{
+    text-align: center;
+}
+ 
+.linkmailto{
+    width: 100%;
+    padding: 40px 0 20px 0;
+    text-align: center;
+}
+ 
+.linkmailto a{
+    color: whitesmoke;
+    padding: 30px 60px;
+    background-color: red;   
+    border: none;
+    border-radius: 5px;
+
+    font-size: 20px;
+}
+
+.linkmailto a:hover{
+    background-color: black;
+    color: red;
+    transition: ease-in-out 0.3s;
+}
+
+#reservar{
+    scroll-margin-top: 0px;
+}
+
+.parrafosArt{
+    color: whitesmoke;
+}
+
+
+
+
+ /* TIENDA */
+
+.catalogoTienda{
+    text-align: center;
+}
+
+#primercatalogo img:hover{
+    transition: 0.3s;
+    border-radius:50%;
+    border-style: none;
+    
+}
+
+#shop{
+    display: inline-block;    
+    padding: 40px 0px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.590);
+    text-align:center;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.catalogoRecomendado h2{
+   
+    color: black;
+    font-size: 35px;
+
+    font-weight: 300;
+    background-color: rosybrown;
+}
+
+#primercatalogo img{
+    border-radius: 0;
+    padding: 0px 25px;
+    transition: 0.3s;
+ }
+
+.catalogoTienda ul li{
+    display: inline-block;
+    text-align: center;
+}
+
+.catalogoTienda img{  
+    padding: 0px 25px;
+    margin: 10px 0;
+}
+
+.catalogoTienda p{
+    color: whitesmoke;
+    font-size: 20px;  
+}
+
+
+
+/*INFORMACION*/
+
+#h2info h2{
+    text-align: center;
+    color: whitesmoke;
+
+    font-size: 30px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.590);
+    padding: 40px 0px ;
+    font-weight: 300;
+    width: 100%;
+}
+
+#h2info p {
+    display: block;
+    color: whitesmoke;
+    margin: 20px 80px;
+    font-size: 25px;
+    font-family: "Playwrite IT Moderna", cursive;    
+    text-align: left;
+}
+
+#h2info p span{
+    display: block;  
+    font-family: "Playwrite IT Moderna", cursive; 
+}
+
+#videos{
+    position: relative;
+}
+
+#videos video{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*EVENTOS*/
+
+#eventos h2{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.590);
+    font-size: 30px;
+    font-weight: 300;
+    padding: 40px 84px;
+    color: whitesmoke;
+}
+
+#imgeventos{
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+}
+ 
+#imageneventos2{
+    display: inline-block;
+    text-align: center;
+} 
+
+#eventos p{
+font-family: "Playwrite IT Moderna", cursive;
+color: whitesmoke;
+}
+
+#parrafoseventos{
+   margin: 30px 50px 0px 580px;
+}
+
+#anclaeventos{
+   text-align: right;
+   margin-top: 20px;
+   margin-left: 149px;
+   margin-right: 149px;
+}
+
+#eventos a{
+    display: inline-block;
+    border-radius: 5px;
+
+    padding: 15px;
+    background-color: red;
+    text-align: center;
+    color: whitesmoke;
+    
+    font-size: 20px;
+    
+    transition:ease-in-out 0.3s;
+}
+
+#eventos a:hover{
+    background-color:black;
+    color: red;
+}
+
+
+
+/*CONTACTO*/
+
+.infotienda{
+  text-align: center;
+  margin: 25px 0;
+}
+
+address a{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+address a:hover{
+    color: red;
+    transition: ease-in-out 0.3s;
+}
+
+
+#linksredes{
+    text-align: center;
+}
+
+#linksredes li{
+    text-align: center;
+    display: inline-block;
+    margin: 15px 40px;
+
+}
+
+#linksredes li a{
+    color: whitesmoke;
+    padding: 15px 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+#linksredes li a:hover{
+    background-color: black;
+    transition: ease-in-out 0.3s;
+    color: red;
+    
+
+}
+
+
+
+
+ /*ABAJO*/
+
+.prefooter{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+    margin: 60px 0 0 0;
+}
+
+#elresponsive{
+ text-align: center;
+ margin: 30px 0 0 0;
+}
+
+#elresponsive a h1{
+ background-image: url(../imagenes/responsivenegro.png); 
+ background-position: center;
+ background-repeat: no-repeat;
+
+ text-indent: -1000px;
+ overflow: hidden;
+ display:  block;
+ margin-bottom: 5px;
+}
+
+#elresponsive a h1:hover{
+ background-image: url(../imagenes/responsiverojo.png);
+ transition:ease-in-out 0.3s;
+}
+
+footer{
+ display: inline-block;
+ text-align: center;
+ color: whitesmoke;
+ width: 100%;
+ background-color: black;
+}
+
+
+#copyright{
+ margin: 30px 0;
+}
